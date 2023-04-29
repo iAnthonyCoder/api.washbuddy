@@ -1,0 +1,30 @@
+{
+  "use_env_variable": true,
+  "development": {
+    "username": "root",
+    "password": "DMEpVpMAJSjsoKl8x2Sy",
+    "database": "washbuddy-dev",
+    "host": "containers-us-west-44.railway.app",
+    "dialect": "mysql",
+    "port": "6549",
+    "logging": false
+  },
+  "test": {
+      "username": "root",
+      "password": "DMEpVpMAJSjsoKl8x2Sy",
+      "database": "washbuddy",
+      "host": "containers-us-west-44.railway.app",
+      "dialect": "mysql",
+      "port": "6549",
+      "logging": true
+  },
+  "production": {
+      "username": "root",
+      "password": "DMEpVpMAJSjsoKl8x2Sy",
+      "database": "washbuddy-test",
+      "host": "containers-us-west-44.railway.app",
+      "dialect": "mysql",
+      "port": "6549",
+      "logging": true
+  }
+}
